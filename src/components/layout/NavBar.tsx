@@ -117,7 +117,7 @@ const NavBar = ({ component }: NavBarProps) => {
         <IconButton
           icon={QQIcon}
           label="QQ"
-          href="http://qm.qq.com/cgi-bin/qm/qr?k=a7PEui7gkXBGtlSXj9Q4mKuraMsSBdbr"
+          href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=MfosKhcDd8Fdxn1MREuZ8Krbf9T6jiBC&authKey=3cm6qdHohON3gHnuD63FK4k07fIbrWnY4hdyq8OmELsfjMVP1kbFTJY9mRyM2Rkj&noverify=0&group_code=368632360"
           external
         />
         <IconButton

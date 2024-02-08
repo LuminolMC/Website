@@ -37,3 +37,6 @@ yarn-error.log*
 # intellij
 /.idea
 *.iml
+
+#pnpm
+pnpm-lock.yaml
