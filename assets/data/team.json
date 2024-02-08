@@ -1,0 +1,33 @@
+[
+  {
+    "id": "core-team",
+    "members": [
+      {
+        "name": "EarthMe",
+        "avatar": "https://avatars.githubusercontent.com/u/79621885?v=4",
+        "github": "MrHua269"
+      }
+    ]
+  },
+  {
+    "id": "luminol-developers",
+    "members": [{
+        "name": "??",
+        "avatar": "",
+        "discord": "??",
+        "github": "??",
+        "qq": "??"
+      }
+    ]
+  },
+  {
+    "id": "web-developers",
+    "members": [
+      {
+        "name": "ShintoKosei",
+        "avatar": "https://avatars.githubusercontent.com/u/67397639?v=4",
+        "github": "ShintoKosei"
+      }
+    ]
+  }
+]
