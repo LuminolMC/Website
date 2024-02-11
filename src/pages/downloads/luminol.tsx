@@ -23,7 +23,7 @@ const LuminolDownloads = ({ project }: ProjectProps): ReactElement => {
         ]}
       />
       <SoftwareDownload
-        id="leaves"
+        id="luminol"
         project={project}
         icon={LuminolIcon}
         description={t("downloads.luminol.description")}
@@ -35,4 +35,4 @@ const LuminolDownloads = ({ project }: ProjectProps): ReactElement => {
 
 export default LuminolDownloads;
 
-export const getStaticProps = getProjectProps("leaves");
+export const getStaticProps = getProjectProps("luminol");

@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-import { useProject } from "@/lib/service/v2";
+import { useProject } from "@/lib/service/v1";
 
 interface ProjectSubTreeProps {
   id: string;
@@ -52,7 +52,7 @@ interface DownloadsTreeProps {
 const DownloadsTree = (props: DownloadsTreeProps) => {
   return (
     <nav className="w-50 p-2 border-r border-gray-300 overflow-auto">
-      <ProjectSubTree id="leaves" name="Leaves" {...props} />
+      <ProjectSubTree id="Luminol" name="Luminol" {...props} />
     </nav>
   );
 };

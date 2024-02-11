@@ -15,8 +15,8 @@ const Sponsor: NextPage = () => {
         title={t("title.sponsor")}
         description="Without contributors our projects wouldn't be possible. Find out how you can help."
         keywords={[
-          "leavesmc",
-          "leaves",
+          "luminolmc",
+          "luminol",
           "minecraft",
           "sponsor",
           "contributing",

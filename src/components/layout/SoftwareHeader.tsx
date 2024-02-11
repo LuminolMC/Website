@@ -45,14 +45,14 @@ const SoftwareHeader = ({
         </Button>
         {/* <Button
           variant="outlined"
-          href={`https://docs.leavesmc.top/${id}`}
+          href={`https://docs.luminolmc.com/${id}`}
           external
         >
           {t("components.layout.SoftwareHeader.documentation")}
         </Button>
         <Button
           variant="outlined"
-          href={`https://repo.leavesmc.top`}
+          href={`https://repo.luminolmc.com`}
           className="hidden md:block"
           external
         >

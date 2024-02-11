@@ -20,12 +20,12 @@ const Footer = () => (
               </Link>
             </li>
             {/* <li>
-              <a href="https://docs.leavesmc.top" target="_blank">
+              <a href="https://docs.luminolmc.com" target="_blank">
                 {t("components.layout.Footer.getting_started.documentation")}
               </a>
             </li>
             <li>
-              <a href="https://repo.leavesmc.top" target="_blank">
+              <a href="https://repo.luminolmc.com" target="_blank">
                 Javadocs
               </a>
             </li> */}

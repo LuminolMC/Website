@@ -18,7 +18,7 @@ const SoftwareBuildChanges = ({
     {build.changes.map((change) => (
       <p key={change.commit}>
         <a
-          href={`https://github.com/LeavesMC/${project}/commit/${change.commit}`}
+          href={`https://github.com/LuminolMC/${project}/commit/${change.commit}`}
           className={styles.commit}
           rel="noreferrer"
           target="_blank"
@@ -52,7 +52,7 @@ const highlightIssues = (
       <a
         key={i}
         className={highlightClass}
-        href={`https://github.com/LeavesMC/${project}/issues/${part.slice(1)}`}
+        href={`https://github.com/LuminolMC/${project}/issues/${part.slice(1)}`}
         target="_blank"
         rel="noreferrer"
       >

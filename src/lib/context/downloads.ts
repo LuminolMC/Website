@@ -2,7 +2,7 @@ import type { GetStaticProps } from "next";
 import { createContext } from "react";
 
 import type { Build } from "@/lib/service/types";
-import { getProject, getVersionBuilds } from "@/lib/service/v2";
+import { getProject, getVersionBuilds } from "@/lib/service/v1";
 
 export interface DownloadsContextProps {
   projectId: string;
@@ -24,7 +24,7 @@ export interface ProjectProps {
 }
 
 export const DownloadsContext = createContext<DownloadsContextProps>({
-  projectId: "leaves",
+  projectId: "luminol",
   project: undefined,
   builds: undefined,
   version: "",

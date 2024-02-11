@@ -6,9 +6,9 @@ import SoftwareBuildsTable from "@/components/data/SoftwareBuildsTable";
 import DownloadsTree from "@/components/layout/DownloadsTree";
 import SEO from "@/components/util/SEO";
 import type { Project } from "@/lib/service/types";
-import { useVersionBuilds, getProject } from "@/lib/service/v2";
+import { useVersionBuilds, getProject } from "@/lib/service/v1";
 
-const INITIAL_PROJECT = "leaves";
+const INITIAL_PROJECT = "luminol";
 
 interface LegacyDownloadProps {
   initialProjectId: string;
@@ -38,7 +38,7 @@ const LegacyDownloads: NextPage<LegacyDownloadProps> = ({
     <>
       <SEO
         title={t("title.downloads.all")}
-        description="Build explorer for LeavesMC projects. Proceed with caution!"
+        description="LuminolMC一些项目的构建资源管理器，请谨慎操作！"
         keywords={[]}
       />
       <div className="flex flex-col h-screen">

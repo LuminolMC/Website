@@ -63,7 +63,7 @@ const NavBar = ({ component }: NavBarProps) => {
           <MenuIcon className="w-6 h-6 fill-gray-500" />
         </button>
         <Link href="/" className="leading-0" tabIndex={-1} aria-hidden={true}>
-          <Logo className="h-8 cursor-pointer" alt="LeavesMC" />
+          <Logo className="h-8 cursor-pointer" alt="LuminolMC" />
         </Link>
         <div
           className={clsx(
@@ -76,7 +76,7 @@ const NavBar = ({ component }: NavBarProps) => {
             <NavDropDownLink href="/software/LightingLuminol">LightingLuminol</NavDropDownLink>
           </NavDropDown>
           {/* <NavLink
-            href="https://docs.leavesmc.top/"
+            href="https://docs.luminolmc.com/"
             target="_blank"
             className="inline-flex items-center"
           >
