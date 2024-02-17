@@ -84,7 +84,7 @@ const Team: NextPage = () => {
                         {member.github}
                       </a>
                     )}
-                    {member.discord && (
+                    {/* {member.discord && (
                       <div className="flex flex-row items-center gap-2 mt-1 text-custom-color-800 dark:text-custom-color-300 text-sm font-medium">
                         <DiscordIcon className="w-4 h-4 fill-gray-700 dark:fill-gray-300" />
                         {member.discord}
@@ -95,7 +95,7 @@ const Team: NextPage = () => {
                         <QQIcon className="w-4 h-4 fill-gray-700 dark:fill-gray-300" />
                         {member.qq}
                       </div>
-                    )}
+                    )} */}
                   </div>
                 </div>
               </article>

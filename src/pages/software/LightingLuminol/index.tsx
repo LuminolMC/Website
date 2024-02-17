@@ -61,17 +61,23 @@ const LuminolHome = ({ project }: ProjectProps): ReactElement => {
             <FeatureCard
               icon={BoltIcon}
               label={t("software.lightingluminol.index.why.reason.1.label")}
-              description={t("software.lightingluminol.index.why.reason.1.description")}
+              description={t(
+                "software.lightingluminol.index.why.reason.1.description",
+              )}
             />
             <FeatureCard
               icon={ChatBubbleLeftRightIcon}
               label={t("software.lightingluminol.index.why.reason.2.label")}
-              description={t("software.lightingluminol.index.why.reason.2.description")}
+              description={t(
+                "software.lightingluminol.index.why.reason.2.description",
+              )}
             />
             <FeatureCard
               icon={CodeBracketIcon}
               label={t("software.lightingluminol.index.why.reason.3.label")}
-              description={t("software.lightingluminol.index.why.reason.3.description")}
+              description={t(
+                "software.lightingluminol.index.why.reason.3.description",
+              )}
             />
           </div>
         </div>

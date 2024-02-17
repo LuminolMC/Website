@@ -5,13 +5,15 @@
       {
         "name": "EarthMe",
         "avatar": "https://avatars.githubusercontent.com/u/79621885?v=4",
-        "github": "MrHua269"
+        "github": "MrHua269",
+        "discord": "m2ke4u"
       }
     ]
   },
   {
     "id": "luminol-developers",
-    "members": [{
+    "members": [
+      {
         "name": "??",
         "avatar": "",
         "discord": "??",

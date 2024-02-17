@@ -50,7 +50,9 @@ const SoftwareDownload = ({
           </div>
           <h2 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
             {t("components.layout.SoftwareDownload.get")} {project.name}&nbsp;
-            <span className={isStable ? "text-custom-color-600" : "text-red-500"}>
+            <span
+              className={isStable ? "text-custom-color-600" : "text-red-500"}
+            >
               {version}
             </span>
           </h2>

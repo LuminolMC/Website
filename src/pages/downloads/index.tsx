@@ -32,7 +32,9 @@ const Downloads: NextPage = () => {
             id="lightingluminol"
             name="LightingLuminol"
             icon={LuminolIcon}
-            description={t("downloads.index.softwares.lightingluminol.description")}
+            description={t(
+              "downloads.index.softwares.lightingluminol.description",
+            )}
             download
           />
         </div>

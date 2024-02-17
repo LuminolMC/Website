@@ -73,7 +73,9 @@ const NavBar = ({ component }: NavBarProps) => {
         >
           <NavDropDown label={t("components.layout.NavBar.software")}>
             <NavDropDownLink href="/software/Luminol">Luminol</NavDropDownLink>
-            <NavDropDownLink href="/software/LightingLuminol">LightingLuminol</NavDropDownLink>
+            <NavDropDownLink href="/software/LightingLuminol">
+              LightingLuminol
+            </NavDropDownLink>
           </NavDropDown>
           {/* <NavLink
             href="https://docs.luminolmc.com/"

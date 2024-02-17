@@ -25,7 +25,9 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
           <h1 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
             {t("index.title.line1")}
             <br />
-            <span className="text-custom-color-500">{t("index.title.line2")}</span>
+            <span className="text-custom-color-500">
+              {t("index.title.line2")}
+            </span>
           </h1>
           <p className="text-xl mt-4">{t("index.description")}</p>
           <div className="flex flex-row gap-4 mt-8">
@@ -64,7 +66,9 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
             <h2 className="font-semibold text-2xl md:text-4xl break-all">
               {t("index.image.1.title.powering")}&nbsp;
               {playerData ? (
-                <span className="text-custom-color-500">{playerData[0][1]}+</span>
+                <span className="text-custom-color-500">
+                  {playerData[0][1]}+
+                </span>
               ) : (
                 <Skeleton className="w-30 h-6 inline-block" />
               )}
