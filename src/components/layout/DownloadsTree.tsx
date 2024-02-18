@@ -53,7 +53,7 @@ const DownloadsTree = (props: DownloadsTreeProps) => {
   return (
     <nav className="w-50 p-2 border-r border-gray-300 overflow-auto">
       <ProjectSubTree id="luminol" name="Luminol" {...props} />
-      <ProjectSubTree id="lighutingluminol" name="LighutingLuminol" {...props} />
+      <ProjectSubTree id="lightingluminol" name="LightingLuminol" {...props} />
     </nav>
   );
 };
