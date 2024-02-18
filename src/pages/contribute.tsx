@@ -66,7 +66,7 @@ const Contribute: NextPage = () => (
         <div className="flex flex-row gap-4 mt-8">
           <Button
             variant="filled"
-            href="https://github.com/LuminolMC/Luminol/docs/CONTRIBUTING_cn.md"
+            href="https://github.com/LuminolMC/Luminol/blob/ver/1.20.4/docs/CONTRIBUTING_cn.md"
             dense
           >
             {t("contribute.button.more")}
