@@ -28,10 +28,10 @@ const ProjectSubTree = ({
           <button
             key={version}
             className={clsx(
-              "pl-6 py-1 rounded-md hover:bg-custom-color-100 hover:dark:bg-gray-900 transition-colors text-gray-800 dark:text-gray-200 block w-full text-left",
+              "pl-6 py-1 rounded-md hover:bg-luminol-color-100 hover:dark:bg-gray-900 transition-colors text-gray-800 dark:text-gray-200 block w-full text-left",
               selectedProject === id &&
                 selectedVersion === version &&
-                "bg-custom-color-100 dark:bg-custom-color-800",
+                "bg-luminol-color-100 dark:bg-luminol-color-800",
             )}
             onClick={() => onSelect(id, version)}
           >

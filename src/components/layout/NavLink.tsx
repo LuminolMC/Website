@@ -15,7 +15,7 @@ const NavLink = ({ href, target, className, children }: LinkProps) => (
     rel="noreferrer"
     target={target}
     className={clsx(
-      "color-gray-200 hover:text-custom-color-600 dark:hover:text-custom-color-500 text-sm transition-colors px-2.5",
+      "color-gray-200 hover:text-luminol-color-600 dark:hover:text-luminol-color-500 text-sm transition-colors px-2.5",
       className,
     )}
   >

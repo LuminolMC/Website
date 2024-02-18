@@ -3,7 +3,7 @@
 }
 
 .body tr {
-  @apply border-b hover:bg-custom-color-100 dark:(border-gray-600 hover:bg-gray-900);
+  @apply border-b hover:bg-luminol-color-100 dark:(border-gray-600 hover:bg-gray-900);
 }
 
 .body td {

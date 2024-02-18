@@ -1,7 +1,7 @@
 .commit {
-  @apply text-custom-color-600 dark:text-custom-color-500 mr-1 font-mono;
+  @apply text-luminol-color-600 dark:text-luminol-color-500 mr-1 font-mono;
 }
 
 .issue {
-  @apply text-custom-color-600 dark:text-custom-color-500;
+  @apply text-luminol-color-600 dark:text-luminol-color-500;
 }

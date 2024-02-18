@@ -26,7 +26,7 @@ const Button = ({
       dense ? "text-sm" : "text-md",
       variant === "outlined"
         ? "border-1 border-gray-400 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800"
-        : "bg-custom-color-800 hover:bg-custom-color-600 text-white",
+        : "bg-luminol-color-800 hover:bg-luminol-color-600 text-white",
       className,
     )}
     rel="noreferrer"

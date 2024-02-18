@@ -9,12 +9,12 @@ const SegmentedControls = ({
   selectedIndex,
   children,
 }: SegmentedControlsProps): ReactElement => (
-  <div className="p-1  bg-custom-color-200 rounded-lg">
+  <div className="p-1  bg-luminol-color-200 rounded-lg">
     <div className="flex flex-row relative z-1">
       {children}
 
       <div
-        className="-z-1 absolute left-0 inset-y-0 bg-custom-color-500 rounded-lg transition-all ease-in-out duration-100"
+        className="-z-1 absolute left-0 inset-y-0 bg-luminol-color-500 rounded-lg transition-all ease-in-out duration-100"
         style={{
           width: 100 / children.length + "%",
           transform: `translateX(${selectedIndex * 100}%)`,

@@ -46,10 +46,10 @@ const SoftwareDownloadButton = ({
     <Menu as="div" className="relative w-max">
       <div
         className={clsx(
-          "rounded-lg flex flex-row ransition-shadow text-white transition-color hover:shadow-lg",
+          "rounded-lg flex flex-row ransition-shadow text-white transition-color hover:shadow-lg transition-colors",
           !compact && "w-full md:w-100",
           stable
-            ? "bg-custom-color-600 hover:bg-custom-color-500"
+            ? "bg-luminol-color-800 hover:bg-luminol-color-600"
             : "bg-red-500 hover:bg-red-400",
         )}
       >
@@ -99,7 +99,7 @@ const SoftwareDownloadButton = ({
             )}
           </div>
         </a>
-        <Menu.Button aria-label="Other download variants" className="leading-0">
+        <Menu.Button aria-label="其他下载方式" className="leading-0">
           <ChevronDownIcon
             className={clsx(
               "text-gray-200",
@@ -129,7 +129,7 @@ const SoftwareDownloadButton = ({
             Object.entries(build.downloads).map(([name, download]) => (
               <Menu.Item key={name}>
                 {() => (
-                  <div className="hover:bg-custom-color-100 dark:hover:bg-gray-800 transition-colors">
+                  <div className="hover:bg-luminol-color-500 dark:hover:bg-gray-800 transition-colors">
                     {/* eslint-disable-next-line react/jsx-no-target-blank */}
                     <a
                       href={
@@ -153,7 +153,7 @@ const SoftwareDownloadButton = ({
                             </span>
                           )}
                           {name !== "ghproxy" && copied === download.sha256 && (
-                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-custom-color-200/80 text-custom-color-800">
+                            <span className="ml-2 text-xs rounded-full py-0.5 px-2 bg-luminol-color-700/80 text-luminol-color-800">
                               {t(
                                 "components.input.SoftwareDownloadButton.copied",
                               )}

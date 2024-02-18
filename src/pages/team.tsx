@@ -76,7 +76,7 @@ const Team: NextPage = () => {
                     {member.github && (
                       <a
                         href={`https://github.com/${member.github}`}
-                        className="flex flex-row items-center gap-2 mt-2 text-custom-color-800 dark:text-custom-color-300 text-sm font-medium"
+                        className="flex flex-row items-center gap-2 mt-2 text-luminol-color-800 dark:text-luminol-color-300 text-sm font-medium"
                         rel="noreferrer"
                         target="_blank"
                       >
@@ -85,13 +85,13 @@ const Team: NextPage = () => {
                       </a>
                     )}
                     {/* {member.discord && (
-                      <div className="flex flex-row items-center gap-2 mt-1 text-custom-color-800 dark:text-custom-color-300 text-sm font-medium">
+                      <div className="flex flex-row items-center gap-2 mt-1 text-luminol-color-800 dark:text-luminol-color-300 text-sm font-medium">
                         <DiscordIcon className="w-4 h-4 fill-gray-700 dark:fill-gray-300" />
                         {member.discord}
                       </div>
                     )}
                     {member.qq && (
-                      <div className="flex flex-row items-center gap-2 mt-1 text-custom-color-800 dark:text-custom-color-300 text-sm font-medium">
+                      <div className="flex flex-row items-center gap-2 mt-1 text-luminol-color-800 dark:text-luminol-color-300 text-sm font-medium">
                         <QQIcon className="w-4 h-4 fill-gray-700 dark:fill-gray-300" />
                         {member.qq}
                       </div>

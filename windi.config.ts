@@ -22,11 +22,12 @@ export default defineConfig({
         ],
       },
       colors: {
-        // custom-color
-        "custom-color-100": "#FFF8FF",
-        "custom-color-500": "#C7BFE8",
-        "custom-color-600": "#B6ADE6",
-        "custom-color-800": "#8E85BE",
+        // luminol-color
+        "luminol-color-100": "#FFF8FF",
+        "luminol-color-500": "#C7BFE8",
+        "luminol-color-600": "#B6ADE6",
+        "luminol-color-700": "#938AC4",
+        "luminol-color-800": "#8E85BE",
         "background-dark-90": "#111111",
         "background-dark-80": "#181a1b",
         "background-light-10": "#f8faff",

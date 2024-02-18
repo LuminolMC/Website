@@ -42,7 +42,7 @@ const LuminolHome = ({ project }: ProjectProps): ReactElement => {
           <>
             {t("software.lightingluminol.index.title.line1")}
             <br />
-            <span className="text-custom-color-500">
+            <span className="text-luminol-color-500">
               {t("software.lightingluminol.index.title.line2")}
             </span>
           </>
@@ -51,7 +51,7 @@ const LuminolHome = ({ project }: ProjectProps): ReactElement => {
       />
       <section
         id="why"
-        className="w-full pt-10 pb-5 bg-custom-color-100 dark:bg-background-dark-80"
+        className="w-full pt-10 pb-5 bg-luminol-color-100 dark:bg-background-dark-80"
       >
         <div className="max-w-7xl mx-auto">
           <h2 className="font-semibold text-xl md:text-2xl px-6 lg:px-4">

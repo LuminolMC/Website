@@ -51,7 +51,7 @@ const SoftwareDownload = ({
           <h2 className="font-medium leading-normal lg:(text-5xl leading-normal) text-4xl">
             {t("components.layout.SoftwareDownload.get")} {project.name}&nbsp;
             <span
-              className={isStable ? "text-custom-color-600" : "text-red-500"}
+              className={isStable ? "text-luminol-color-600" : "text-red-500"}
             >
               {version}
             </span>
@@ -73,7 +73,7 @@ const SoftwareDownload = ({
                   "rounded-lg flex flex-row w-full md:w-100 border text-white transition-border pl-5 py-3",
                   isStable
                     ? "dark:border-red-500 dark:text-red-400 border-red-900 text-red-700"
-                    : "dark:border-custom-color-600 dark:text-custom-color-500 border-custom-color-800 text-custom-color-700",
+                    : "dark:border-luminol-color-600 dark:text-luminol-color-500 border-luminol-color-800 text-luminol-color-700",
                 )}
                 onClick={toggleStable}
               >
@@ -101,7 +101,7 @@ const SoftwareDownload = ({
             <span className="text-gray-700 dark:text-gray-400">
               <Link
                 href="/downloads/all"
-                className="text-gray-700 dark:text-gray-400 underline"
+                className="text-luminol-color-700 dark:text-luminol-color-400 underline"
               />
             </span>
           </Trans>
