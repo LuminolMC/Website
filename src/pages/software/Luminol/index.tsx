@@ -153,4 +153,4 @@ LuminolHome.softwareProps = {
 
 export default LuminolHome;
 
-export const getStaticProps = getProjectProps("leaves");
+export const getStaticProps = getProjectProps("luminol");
