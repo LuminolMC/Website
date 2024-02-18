@@ -10,7 +10,7 @@ import type {
   VersionFamilyBuilds,
 } from "@/lib/service/types";
 
-const API_ENDPOINT = "http://127.0.0.1:5555/v1";
+const API_ENDPOINT = "https://api.luminolmc.com/v1";
 
 const fetcher = (path: string) =>
   fetch(API_ENDPOINT + path).then((res) => res.json());
