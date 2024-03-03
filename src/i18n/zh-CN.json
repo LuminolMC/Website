@@ -67,7 +67,7 @@
           "line1": "遵循原版特性的",
           "line2": "Minecraft 服务端"
         },
-        "description": "Luminol 是基于 Folia 的 Minecraft 服务端，旨在修复被破坏的原版特性。",
+        "description": "Luminol 是基于 Folia 的 Minecraft 服务端，旨在优化、新增和修复被破坏的原版特性。",
         "why": {
           "title": "为什么选择 Luminol？",
           "reason": {
@@ -77,7 +77,7 @@
             },
             "2": {
               "label": "活跃且不断发展的社区",
-              "description": "Luminol 拥有活跃且不断发展壮大的服主和开发者社区。如果您遇到任何问题，可以在 Discord 上与我们交流，获得实时支持。"
+              "description": "Luminol 拥有活跃且不断发展壮大的服主和开发者社区。如果您遇到任何问题，可以在 Discord 或 QQ群 上与我们交流，获得实时支持。"
             },
             "3": {
               "label": "扩展应用程序接口",
@@ -105,10 +105,10 @@
     "lightingluminol": {
       "index": {
         "title": {
-          "line1": "遵循原版特性的",
+          "line1": "遵循原版特性的Luminol服务端分支并兼容部分Bukkit插件的",
           "line2": "Minecraft 服务端"
         },
-        "description": "LightingLuminol 是基于 Folia 的 Minecraft 服务端，旨在修复被破坏的原版特性。",
+        "description": "LightingLuminol 是基于 Luminol 的 Minecraft 服务端，旨在修复被破坏的原版特性，并兼容部分Bukkit插件。类似于DirtyFolia",
         "why": {
           "title": "为什么选择 LightingLuminol？",
           "reason": {
@@ -122,7 +122,7 @@
             },
             "3": {
               "label": "扩展应用程序接口",
-              "description": "LightingLuminol 扩展并改进了 Folia 的应用程序接口，使您和开发者可以随心所欲地使用更多特性和功能。"
+              "description": "LightingLuminol 扩展并改进了 Luminol 的应用程序接口，从而使其可以加载Bukkit插件，使您和开发者可以随心所欲地使用更多Bukkit插件和功能。"
             }
           }
         },
@@ -157,7 +157,7 @@
         },
         "2": {
           "label": "未来规划",
-          "description": "我们需要升级服务器以满足对我们的服务日益增长的需求。这将增加成本，我们希望通过 Patreon 和爱发电的捐款来抵消。"
+          "description": "我们需要升级服务器与续费域名以满足对我们的服务日益增长的需求。这将增加成本，我们希望通过 Patreon 和爱发电的捐款来抵消。"
         },
         "3": {
           "label": "回馈社会",
@@ -168,11 +168,11 @@
   },
   "contributing": {
     "title": "为LuminolMC贡献代码",
-    "description": "我们很开心您想为我们的项目做出贡献！一般来说，我们对PR的审核是十分宽松的； 但是如果您可以遵守下列的规则，我们可以更快地完成审核。"
+    "description": "我们很开心您想为我们的项目做出贡献！一般来说，我们对拉取请求的审核是十分宽松的； 但是如果您可以遵守下列的规则，我们可以更快地完成审核。"
   },
   "team": {
     "title": "了解我们的团队",
-    "description": "认识一下 LuminolMC 背后的成员，这是一个 Minecraft 软件组织，致力于通过更快、更安全的软件改善游戏生态系统。",
+    "description": "认识一下 LuminolMC 背后的成员，这是一个折腾 Folia 和 Minecraft 软件的组织，致力于通过更快、更安全的软件改善游戏生态系统。",
     "core-team": {
       "title": "核心团队",
       "description": "核心团队成员负责项目的方向和重大决策。无论是专注于代码还是社区，他们是一切运行的关键，对任何事情都有最终决定权。"
@@ -180,6 +180,10 @@
     "luminol-developers": {
       "title": "Luminol 开发者",
       "description": "Luminol 开发者帮助编写代码、审核拉取请求并保持项目的活力。通过贡献新功能和帮助完善旧代码，他们使 Luminol 得以运行。"
+    },
+    "lightingluminol-developers": {
+      "title": "LightingLuminol 开发者",
+      "description": "LightingLuminol 开发者帮助编写代码、审核拉取请求并保持项目的活力。通过贡献新功能和帮助完善旧代码，他们使 LightingLuminol 得以运行。"
     },
     "web-developers": {
       "title": "网络开发者",
@@ -190,7 +194,7 @@
     },
     "contributors": {
       "title": "贡献者",
-      "description": "贡献者是指那些对我们的代码库做出重要贡献，从而为我们的组织提供帮助的人。从添加一个新的红石引擎到提交一个令人讨厌的错误修复，我们的贡献者帮助我们尽可能提供最好的软件。"
+      "description": "贡献者是指那些对我们的代码库做出重要贡献，从而为我们的组织提供帮助的人。从给软件添加一个新的库或功能到修改REAMDE的一字一句，我们的贡献者帮助我们尽可能提供最好的软件。"
     },
     "avatar": " 的头像"
   },
@@ -324,5 +328,5 @@
     "plural_past": "前"
   },
   "Language": "语言",
-  "translator": "由 LittleChest 翻译"
+  "translator": "由 ?? 翻译"
 }

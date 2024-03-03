@@ -14,11 +14,21 @@
     "id": "luminol-developers",
     "members": [
       {
-        "name": "??",
-        "avatar": "",
-        "discord": "??",
-        "github": "??",
-        "qq": "??"
+        "name": "EarthMe",
+        "avatar": "https://avatars.githubusercontent.com/u/79621885?v=4",
+        "github": "MrHua269",
+        "discord": "m2ke4u"
+      }
+    ]
+  },
+  {
+    "id": "lightingluminol-developers",
+    "members": [
+      {
+        "name": "EarthMe",
+        "avatar": "https://avatars.githubusercontent.com/u/79621885?v=4",
+        "github": "MrHua269",
+        "discord": "m2ke4u"
       }
     ]
   },
@@ -29,6 +39,11 @@
         "name": "ShintoKosei",
         "avatar": "https://avatars.githubusercontent.com/u/67397639?v=4",
         "github": "ShintoKosei"
+      },
+      {
+        "name": "マシロ",
+        "avatar": "https://avatars.githubusercontent.com/u/62453589?v=4",
+        "github": "Klop233"
       }
     ]
   }

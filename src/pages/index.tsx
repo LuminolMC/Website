@@ -54,7 +54,7 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
         <div className="flex flex-col gap-6 md:(flex-row gap-8) xl:gap-24 items-center">
           <div className="w-full flex-1 rounded-xl bg-gray-900 aspect-video relative overflow-clip">
             <Image
-              alt=""
+              alt="取景：PUEH服务器"
               src={HomeImage}
               placeholder="blur"
               fill
