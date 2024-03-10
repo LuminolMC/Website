@@ -105,8 +105,8 @@
     "lightingluminol": {
       "index": {
         "title": {
-          "line1": "遵循原版特性的Luminol服务端分支并兼容部分Bukkit插件的",
-          "line2": "Minecraft 服务端"
+          "line1": "兼容Bukkit插件的",
+          "line2": "Folia 服务端"
         },
         "description": "LightingLuminol 是基于 Luminol 的 Minecraft 服务端，旨在修复被破坏的原版特性，并兼容部分Bukkit插件。类似于DirtyFolia",
         "why": {
@@ -276,6 +276,7 @@
         "documentation": "文档",
         "team": "团队",
         "contribute": "贡献",
+        "ci": "构建站",
         "language": "语言",
         "toggle": "切换导航栏"
       },

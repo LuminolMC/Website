@@ -89,6 +89,7 @@ const NavBar = ({ component }: NavBarProps) => {
           <NavLink href="/contribute">
             {t("components.layout.NavBar.contribute")}
           </NavLink>
+          <NavLink href="https://ci.luminolmc.com/" target="_blank">{t("components.layout.NavBar.ci")}</NavLink>
         </div>
 
         <div className="flex-grow" />
