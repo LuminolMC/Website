@@ -3,7 +3,7 @@ description: 在浏览时遇到问题吗？请在这里报告。
 title: "[Bug] "
 labels: ["bug"]
 assignees:
-  - LittleChest
+  - LuminolMC
 body:
   - type: markdown
     attributes:
