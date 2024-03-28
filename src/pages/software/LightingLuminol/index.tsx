@@ -3,6 +3,7 @@ import Image from "next/image";
 import type { ReactElement } from "react";
 
 import LuminolIcon from "@/assets/brand/luminol.svg";
+import LightingLuminolIcon from "@/assets/brand/lightingluminol.svg";
 import BoltIcon from "@/assets/icons/heroicons/bolt.svg";
 import ChatBubbleLeftRightIcon from "@/assets/icons/heroicons/chat-bubble-left-right.svg";
 import CodeBracketIcon from "@/assets/icons/heroicons/code-bracket.svg";
@@ -37,7 +38,7 @@ const LuminolHome = ({ project }: ProjectProps): ReactElement => {
         id="lightingluminol"
         name="LightingLuminol"
         versionGroup={project.latestVersionGroup}
-        icon={LuminolIcon}
+        icon={LightingLuminolIcon}
         header={
           <>
             {t("software.lightingluminol.index.title.line1")}

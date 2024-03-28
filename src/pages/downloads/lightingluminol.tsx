@@ -1,7 +1,7 @@
 import { t } from "i18next";
 import type { ReactElement } from "react";
 
-import LuminolIcon from "@/assets/brand/luminol.svg";
+import LightingLuminolIcon from "@/assets/brand/lightingluminol.svg";
 import SoftwareDownload from "@/components/layout/SoftwareDownload";
 import SEO from "@/components/util/SEO";
 import type { ProjectProps } from "@/lib/context/downloads";
@@ -25,7 +25,7 @@ const LuminolDownloads = ({ project }: ProjectProps): ReactElement => {
       <SoftwareDownload
         id="lightingluminol"
         project={project}
-        icon={LuminolIcon}
+        icon={LightingLuminolIcon}
         description={t("downloads.lightingluminol.description")}
         experimentalWarning={t("downloads.lightingluminol.experimentalWarning")}
       />
