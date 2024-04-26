@@ -100,6 +100,8 @@ const Footer = () => (
         <span className="text-gray-300 text-sm" style={{ textAlign: "right" }}>
           © {new Date().getFullYear()}{" "}
           {t("components.layout.Footer.copyright")}
+          <br />
+          <a href="https://icp.gov.moe/?keyword=20242008" target="_blank">萌ICP备20242008号</a>
         </span>
       </div>
     </div>
