@@ -7,10 +7,8 @@ export default defineConfig({
     exclude: ["node_modules", ".git", ".next/**/*"],
   },
   attributify: true,
-  plugins: [
-    require("windicss/plugin/aspect-ratio")
- ],
- 
+  plugins: [require("windicss/plugin/aspect-ratio")],
+
   theme: {
     extend: {
       fontFamily: {
@@ -42,5 +40,4 @@ export default defineConfig({
     },
   },
   shortcuts: {},
-  
 });
