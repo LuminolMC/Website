@@ -33,6 +33,10 @@
         },
         "description": "LuminolMC 的软件在设计之初就考虑到了实用性和性能，可以处理任何您需要处理的事物。"
       }
+    },
+    "software": {
+      "title": "您的服务器应该使用",
+      "title_luminol": "最好的服务器软件"
     }
   },
   "downloads": {

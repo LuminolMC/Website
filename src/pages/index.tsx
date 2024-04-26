@@ -9,6 +9,9 @@ import Button from "@/components/input/Button";
 import SEO from "@/components/util/SEO";
 import { getProjectProps, type ProjectProps } from "@/lib/context/downloads";
 import { useBstatsPlayers } from "@/lib/service/bstats";
+import LightingLuminolIcon from "@/assets/brand/lightingluminol.svg";
+import LuminolIcon from "@/assets/brand/luminol.svg";
+import SoftwarePreview from "@/components/data/SoftwarePreview";
 
 const Home: NextPage<ProjectProps> = ({ project }) => {
   const { data: playerData } = useBstatsPlayers();
@@ -47,6 +50,30 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
           <Terminal project={project} />
         </div>
       </header>
+      <section
+         id="software"
+         className="w-full pt-12 pb-8 bg-primary-200 dark:bg-background-dark-80"
+      >
+        <div className="max-w-7xl mx-auto">
+           <h2 className="font-semibold text-xl md:text-2xl px-6 lg:px-4 mb-4">
+              {t("index.software.title")}<span className="text-luminol-color-500">{t("index.software.title_luminol")}</span>
+           </h2>
+           <div className="grid md:(grid-cols-3 -ml-4) gap-2 px-2 xl:gap-4">
+           <SoftwarePreview
+              id="Luminol"
+              name="Luminol"
+              icon={LuminolIcon}
+              description={t("downloads.index.softwares.luminol.description")}
+           />
+           <SoftwarePreview
+              id="LightingLuminol"
+              name="LightingLuminol"
+              icon={LightingLuminolIcon}
+              description={t("downloads.index.softwares.lightingluminol.description",)}
+           />
+           </div>
+        </div>
+      </section>
       <section
         id="facts"
         className="flex flex-col max-w-7xl mx-auto px-4 py-8 gap-8 md:(gap-12 py-16)"
