@@ -1,0 +1,65 @@
+name: 错误反馈
+description: 在浏览时遇到问题吗？请在这里报告。
+title: "[Bug] "
+labels: [ "bug" ]
+assignees:
+  - LuminolMC
+body:
+  - type: markdown
+    attributes:
+      value: |
+        很抱歉您在浏览此页面时遇到问题，请完整填写此表单，以便我们调查此问题。
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: 您在哪些浏览器上遇到了问题？
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+        - Opera
+        - 其他（请在“额外信息”中填写）
+    validations:
+      required: true
+  - type: input
+    id: path
+    attributes:
+      label: URL 路径
+      description: 请在此处复制您正在访问的 URL。
+      placeholder: 例如 https://luminolmc.com/downloads/luminol
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么？
+      placeholder: 告诉我们您看到了什么！
+    validations:
+      required: true
+  - type: textarea
+    id: expect-to-happen
+    attributes:
+      label: 您期望发生什么？
+      placeholder: 告诉我们您的想法！
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce-operation
+    attributes:
+      label: 重现操作
+      value: "1. "
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 控制台日志
+      description: 请打开开发者工具，切换到控制台，并将输出内容粘贴在这里。如果输出内容太多，也可以粘贴截图。
+      render: shell
+  - type: textarea
+    id: extra-information
+    attributes:
+      label: 额外信息
+      placeholder: 是否有需要添加的任何附加信息？

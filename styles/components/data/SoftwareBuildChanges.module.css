@@ -1,0 +1,7 @@
+.commit {
+  @apply text-luminol-color-700 dark:text-luminol-color-700 mr-1 font-mono;
+}
+
+.issue {
+  @apply text-luminol-color-600 dark:text-luminol-color-500;
+}

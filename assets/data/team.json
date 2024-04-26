@@ -1,0 +1,59 @@
+[
+  {
+    "id": "core-team",
+    "members": [
+      {
+        "name": "EarthMe",
+        "avatar": "https://avatars.githubusercontent.com/u/79621885?v=4",
+        "github": "MrHua269",
+        "discord": "m2ke4u"
+      }
+    ]
+  },
+  {
+    "id": "luminol-developers",
+    "members": [
+      {
+        "name": "EarthMe",
+        "avatar": "https://avatars.githubusercontent.com/u/79621885?v=4",
+        "github": "MrHua269",
+        "discord": "m2ke4u"
+      }
+    ]
+  },
+  {
+    "id": "web-developers",
+    "members": [
+      {
+        "name": "ShintoKosei  [前端开发]",
+        "avatar": "https://avatars.githubusercontent.com/u/67397639?v=4",
+        "github": "ShintoKosei"
+      },
+      {
+        "name": "Klop233  [后端开发]",
+        "avatar": "https://avatars.githubusercontent.com/u/62453589?v=4",
+        "github": "Klop233"
+      }
+    ]
+  },
+  {
+    "id": "other_developers",
+    "members": [
+      {
+        "name": "HaHaWTH  [社区贡献者]",
+        "avatar": "https://avatars.githubusercontent.com/u/102713261?v=4",
+        "github": "HaHaWTH"
+      },
+      {
+        "name": "Jerry  [打杂人员]",
+        "avatar": "https://avatars.githubusercontent.com/u/89722472?v=4",
+        "github": "NatJerry"
+      },
+      {
+        "name": "Dream-qwq  [社区贡献者]",
+        "avatar": "https://avatars.githubusercontent.com/u/61569423?v=4",
+        "github": "Dream-qwq"
+      }
+    ]
+  }
+]
