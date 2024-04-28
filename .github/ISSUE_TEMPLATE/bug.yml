@@ -1,7 +1,7 @@
 name: 错误反馈
 description: 在浏览时遇到问题吗？请在这里报告。
 title: "[Bug] "
-labels: [ "bug" ]
+labels: ["bug"]
 assignees:
   - LuminolMC
 body:
