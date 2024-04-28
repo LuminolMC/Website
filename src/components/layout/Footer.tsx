@@ -21,7 +21,7 @@ const Footer = () => (
             </li>
             {
               <li>
-                <a href="https://docs.luminolmc.com/zh_Hans" target="_blank">
+                <a href="https://docs.luminolmc.com/zh_Hans/" target="_blank">
                   {t("components.layout.Footer.getting_started.documentation")}
                 </a>
               </li>

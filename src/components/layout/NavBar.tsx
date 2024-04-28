@@ -78,7 +78,7 @@ const NavBar = ({ component }: NavBarProps) => {
           </NavDropDown>
           {
             <NavLink
-              href="https://docs.luminolmc.com/zh_Hans"
+              href="https://docs.luminolmc.com/zh_Hans/"
               target="_blank"
               className="inline-flex items-center"
             >
