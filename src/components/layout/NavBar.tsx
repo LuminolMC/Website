@@ -75,14 +75,14 @@ const NavBar = ({ component }: NavBarProps) => {
               LightingLuminol
             </NavDropDownLink>
           </NavDropDown>
-          {/* <NavLink
-            href="https://docs.luminolmc.com/"
+          { <NavLink
+            href="https://docs.luminolmc.com/zh_Hans"
             target="_blank"
             className="inline-flex items-center"
           >
             {t("components.layout.NavBar.documentation")}
             <ExternalUrlIcon className="h-4 w-4 ml-1 align-sub" />
-          </NavLink> */}
+          </NavLink>}
           <NavLink href="/team">{t("components.layout.NavBar.team")}</NavLink>
           <NavLink href="/contribute">
             {t("components.layout.NavBar.contribute")}

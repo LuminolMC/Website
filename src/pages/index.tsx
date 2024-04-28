@@ -39,10 +39,10 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
             </Button>
             <Button
               variant="outlined"
-              href="https://github.com/LuminolMC"
+              href="https://docs.luminolmc.com/zh_Hans"
               external
             >
-              {t("index.github")}
+              {t("index.documentation")}
             </Button>
           </div>
         </div>

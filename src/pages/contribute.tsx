@@ -110,14 +110,14 @@ const Contribute: NextPage = () => (
           {t("contribute.documentation.description")}
         </p>
         <div className="flex flex-row gap-4 mt-8">
-          {/* <Button
+          { <Button
             variant="filled"
             href="https://github.com/LuminolMC/docs"
             external
             dense
           >
             {t("contribute.button.documentation")}
-          </Button> */}
+          </Button>}
         </div>
       </div>
       <div className="justify-start flex w-full lg:(flex-1 justify-end)">

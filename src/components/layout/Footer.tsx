@@ -19,12 +19,12 @@ const Footer = () => (
                 {t("components.layout.Footer.getting_started.downloads")}
               </Link>
             </li>
-            {/* <li>
-              <a href="https://docs.luminolmc.com" target="_blank">
+            { <li>
+              <a href="https://docs.luminolmc.com/zh_Hans" target="_blank">
                 {t("components.layout.Footer.getting_started.documentation")}
               </a>
             </li>
-            <li>
+            /*<li>
               <a href="https://repo.luminolmc.com" target="_blank">
                 Javadocs
               </a>
