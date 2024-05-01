@@ -17,12 +17,24 @@ function InfoLog({ children }: { children: ReactNode }) {
   );
 }
 
+function WarnLog({ children }: { children: ReactNode }) {
+  return (
+    <div>
+      <span className="text-amber-200">
+        [{formatISOFullTime(new Date())} WARN]
+      </span>
+      : {children}
+    </div>
+  );
+}
+
 export function Terminal({ project }: ProjectProps) {
   const [cmd, setCmd] = useState("");
   const [args, setArgs] = useState("");
   const [loading, setLoading] = useState("");
   const [output, setOutput] = useState<ReactNode>(null);
   const [success, setSuccess] = useState<ReactNode>(null);
+  const [warn, setWarn] = useState<ReactNode>(null);
 
   useEffect(() => {
     const outputLines = [
@@ -75,6 +87,13 @@ export function Terminal({ project }: ProjectProps) {
           </span>
         </InfoLog>,
       );
+      setWarn(
+        <WarnLog>
+          <span className="text-amber-200">
+            Can't keep up! Is the server overloaded? Running 5072ms or 101 ticks behind
+          </span>
+        </WarnLog>,
+      );
     })();
   }, [project.latestStableVersion]);
 
@@ -96,6 +115,7 @@ export function Terminal({ project }: ProjectProps) {
         </div>
         <div>{output}</div>
         <div>{success}</div>
+        <div>{warn}</div>
       </div>
     </div>
   );
