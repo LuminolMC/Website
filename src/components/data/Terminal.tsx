@@ -90,7 +90,8 @@ export function Terminal({ project }: ProjectProps) {
       setWarn(
         <WarnLog>
           <span className="text-amber-200">
-            Can't keep up! Is the server overloaded? Running 5072ms or 101 ticks behind
+            Can&apos;t keep up! Is the server overloaded? Running 5072ms or 101
+            ticks behind
           </span>
         </WarnLog>,
       );
