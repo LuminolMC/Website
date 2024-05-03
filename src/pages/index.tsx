@@ -44,6 +44,13 @@ const Home: NextPage<ProjectProps> = ({ project }) => {
             >
               {t("index.documentation")}
             </Button>
+            <Button
+              variant="outlined"
+              href="https://github.com/LuminolMC"
+              external
+            >
+              {t("index.github")}
+            </Button>
           </div>
         </div>
         <div className="flex-1 lg:flex hidden justify-end">
