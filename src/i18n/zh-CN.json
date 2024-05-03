@@ -304,9 +304,9 @@
           "contribute": "贡献",
           "sponsor": "赞助"
         },
-        "terms": {
-          "title": "条款",
-          "community_guidelines": "社区准则"
+        "links": {
+          "title": "链接",
+          "service_status": "服务状态"
         },
         "copyright": "LuminolMC 团队"
       },
