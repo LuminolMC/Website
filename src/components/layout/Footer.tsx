@@ -4,6 +4,8 @@ import Link from "next/link";
 
 import Logo from "@/assets/brand/logo.svg";
 import classes from "@/styles/components/layout/Footer.module.css";
+import ExternalUrlIcon from "@/assets/icons/heroicons/arrow-top-right-on-square.svg";
+import NavLink from "@/components/layout/NavLink";
 
 const Footer = () => (
   <footer className={clsx("bg-background-dark-80 py-12 mt-8", classes.footer)}>
@@ -85,13 +87,18 @@ const Footer = () => (
         </div>
         <div>
           <span className="font-semibold">
-            {t("components.layout.Footer.terms.title")}
+            {t("components.layout.Footer.links.title")}
           </span>
           <ul className="mt-4 leading-5 text-gray-400 space-y-2">
             <li>
-              {/* <Link href="/community/guidelines">
-                {t("components.layout.Footer.terms.community_guidelines")}
-              </Link> */}
+              <NavLink
+                href="http://status.lolicon.fit/"
+                target="_blank"
+                className="inline-flex items-center"
+              >
+                {t("components.layout.Footer.links.service_status")}
+                <ExternalUrlIcon className="h-4 w-4 ml-1 align-sub" />
+              </NavLink>
             </li>
           </ul>
         </div>
