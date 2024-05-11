@@ -3,9 +3,9 @@ import { t } from "i18next";
 import Link from "next/link";
 
 import Logo from "@/assets/brand/logo.svg";
-import classes from "@/styles/components/layout/Footer.module.css";
 import ExternalUrlIcon from "@/assets/icons/heroicons/arrow-top-right-on-square.svg";
 import NavLink from "@/components/layout/NavLink";
+import classes from "@/styles/components/layout/Footer.module.css";
 
 const Footer = () => (
   <footer className={clsx("bg-background-dark-80 py-12 mt-8", classes.footer)}>
