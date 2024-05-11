@@ -87,6 +87,7 @@ export function Terminal({ project }: ProjectProps) {
           </span>
         </InfoLog>,
       );
+      await sleep(1500);
       setWarn(
         <WarnLog>
           <span className="text-amber-200">
