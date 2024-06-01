@@ -129,7 +129,7 @@ const LuminolHome = ({ project }: ProjectProps): ReactElement => {
             <div className="flex flex-row gap-4 mt-8">
               <Button
                 variant="filled"
-                href="https://discord.gg/5hgtU72w33"
+                href="https://discord.gg/Qd7m3V6eDx"
                 external
                 dense
               >

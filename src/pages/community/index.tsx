@@ -61,7 +61,7 @@ const CommunityIndex: NextPage = () => (
         <div className="flex flex-row gap-4 mt-8">
           <Button
             variant="filled"
-            href="https://discord.gg/8GKSUNw9"
+            href="https://discord.gg/Qd7m3V6eDx"
             external
             dense
           >

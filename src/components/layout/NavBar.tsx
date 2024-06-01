@@ -126,7 +126,7 @@ const NavBar = ({ component }: NavBarProps) => {
         <IconButton
           icon={DiscordIcon}
           label="Discord"
-          href="https://discord.gg/5hgtU72w33"
+          href="https://discord.gg/Qd7m3V6eDx"
           external
         />
       </div>

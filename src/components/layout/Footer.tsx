@@ -56,7 +56,7 @@ const Footer = () => (
             </li>
             <li>
               <a
-                href="https://discord.gg/8GKSUNw9"
+                href="https://discord.gg/Qd7m3V6eDx"
                 target="_blank"
                 rel="noreferrer"
               >
