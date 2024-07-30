@@ -37,7 +37,7 @@ const Sponsor: NextPage = () => {
             {/* <p className="text-xl mt-4 text-red-300">{t("sponsor.nothing")}</p> */}
             <Button
               variant="filled"
-              href="https://afdian.net/a/Luminol"
+              href="https://afdian.com/a/Luminol"
               external
             >
               爱发电
